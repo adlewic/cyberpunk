@@ -1,4 +1,9 @@
  $(document).ready(function() {
 
- 	$('#fullname').addClass('animated fadeInDown')
+
+ 	
+$('#music_link').on('click',function(){
+					$('#music').addClass('animated fadeInRight')
+					  			.css('visibility','visible')
+				})
  })
