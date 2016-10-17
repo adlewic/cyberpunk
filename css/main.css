@@ -102,46 +102,46 @@ a{
 ul{
 	list-style-type: none;
 }
-li{
+
+
+#menu ul li{
 	margin-top: 10px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
-	color: #818181;
-	font-size: 12pt;
-		font-family: "Roboto Condensed";
-		text-align: right;
+	text-align: right;
+	margin-left: 
 }
 
 .select{
-	font-family: "PixTall";
-	color: white;
-	font-size: 20pt;
+	font-size: 12pt;
 }
+
+.non-select{
+	font-size: 12pt;
+	color: #818181;
+}
+
 
 #menu{
 	/*border: 1px solid white;*/
 	width: 20%;
 	margin-top: 20%;
 	float: left;
+
 }
 
-.button_up{
-	text-align: center;
-	transform: rotate(90deg);
+.button{
+	width: 100%;
+	height: 30px;
+	background-color: pink;
 	margin-bottom:50px;
-}
-
-.button_down{
-	text-align: center;
-	transform: rotate(-90deg);
-	margin-top:50px;
+	float:right;
 }
 
 
 #website{
-	/*border: 1px solid white;*/
+	border: 1px solid green;
 	font-family: "PixTall";
-	float: right;
 	padding-left: 0%; 
 	width: 60%;
 	margin-top: 14%;
@@ -149,15 +149,18 @@ li{
 
 
 #web_information{
+	font-family: "PixTall";
 	width: 80%;
-	/*border: 1px solid white;*/
-	margin-left: 15%;
+	border: 1px solid white;
+	margin-left: 10%;
 }
 
 
 #title{
+	font-family: "PixTall";
 	font-size: 20pt;
 	letter-spacing: 2px;
+	float: left;
 }
 
 #description{
@@ -165,18 +168,21 @@ li{
 		color: #818181;
 		margin-left: 10px;
 		font-size: 11pt;
+		
 }
 
 #tools{
+	font-family: "PixTall";
 	text-transform: uppercase;
-color:#1df2f2;
-font-size: 15pt;
-letter-spacing: 2px;
+	color:#1df2f2;
+	font-size: 15pt;
+	letter-spacing: 2px;
 }
 
 #link{
-font-size: 18pt;
-letter-spacing: 1px;
+	font-size: 18pt;
+	letter-spacing: 1px;
+
 }
 
 
@@ -199,15 +205,7 @@ letter-spacing: 1px;
 
 
 
-.up{
-	/*border: 1px solid white;*/
-	transform: rotate(90deg);
-	transform-origin: left top 0;
-	float: left;
-}
-
-.down{
-	transform: rotate(-90deg);
-	transform-origin: left top 0;
-	float: left;
+.img_b{
+	width: 30px;
+	margin-left: 40%;
 }

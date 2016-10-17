@@ -4,6 +4,17 @@
 	<meta charset="utf-8">
 	<title>Joseph Giglio</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/tinycarousel.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.tinycarousel.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			$('#slider1').tinycarousel({
+				axis:"y"
+			});
+		});
+	</script>	
 </head>
 <body>
 	<div id="wrapper">	
@@ -11,20 +22,58 @@
 		<div id="menu">
 			<ul>
 				<a href="index.html"><li>joseph giglio</li>	</a>
-				<a href="code.html"> <li class="select">code</li> </a>
+				<a href="code.html"> <li class="select"> code</li> </a>
 				<a href="music.html"> <li>music</li>	</a>
 			</ul>
 		</div>	
-		<div id="website">
-			<p class="button_up">  << </p>
+
+			<div id="slider1">
+
+				<a class="prev button" href="#"><img class="img_b" src="images/up.svg"></a>
+				<div class="viewport">
+					<ul class="overview">
+						<li>
+							<div id="web_information">
+								<span id="title">MANAGED APPS</span><span id="description">a SASS platform for mobile devices</span>
+								<p id="tools"> ruby on rails - basicbone.js - bootstrap</p>
+								<p id="link"> http://portal.managedapps.co/</p>
+							</div>
+						</li>
+						<li>
+							<div id="web_information">
+								<span id="title">MANAGED APPS</span><span id="description">a SASS platform for mobile devices</span>
+								<p id="tools"> ruby on rails - basicbone.js - bootstrap</p>
+								<p id="link"> http://portal.managedapps.co/</p>
+							</div>
+						</li>
+						<li>
+							<div id="web_information">
+								<span id="title">MANAGED APPS</span><span id="description">a SASS platform for mobile devices</span>
+								<p id="tools"> ruby on rails - basicbone.js - bootstrap</p>
+								<p id="link"> http://portal.managedapps.co/</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<a class="next button" href="#"><img class="img_b" src="images/down.svg"></a>
+			</div>
+
+	</div>
+</body>
+</html> 
+
+
+	<!-- 	<div id="website">
+
+			<div class="button"> <img class="img_b" src="images/up.svg">  </div>
+			
 			<div id="web_information">
 				<span id="title">MANAGED APPS</span><span id="description">a SASS platform for mobile devices</span>
 				<p id="tools"> ruby on rails - basicbone.js - bootstrap</p>
 				<p id="link"> http://portal.managedapps.co/</p>
 			</div>
-			<p class="button_down">  << </p>
+			
+				<div class="button"> <img class="img_b" src="images/down.svg">   </div>
 		</div> 
-		</div>
-	</div>
-</body>
-</html> 
+
+ -->
