@@ -18,9 +18,9 @@
         ,   buttons: true
         ,   bullets: false
         ,   interval: false
-        ,   intervalTime: 3000
+        ,   intervalTime: 100
         ,   animation: true
-        ,   animationTime: 500
+        ,   animationTime: 1000
         ,   infinite: true
         }
     ;

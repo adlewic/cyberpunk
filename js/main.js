@@ -1,9 +1,11 @@
  $(document).ready(function() {
 
 
- 	
-$('#music_link').on('click',function(){
-					$('#music').addClass('animated fadeInRight')
-					  			.css('visibility','visible')
-				})
+$('#music_link').addClass('animated fadeIn');
+
+
+
+$('.one').addClass('animated fadeIn');
+$('#slider').tinycarousel({axis:"y"});
+
  })

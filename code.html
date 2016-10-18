@@ -3,53 +3,48 @@
 <head>
 	<meta charset="utf-8">
 	<title>Joseph Giglio</title>
+	<link rel="shortcut icon" type="image/png" href="favicon.png"/>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-<link rel="stylesheet" type="text/css" href="css/tinycarousel.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/tinycarousel.css">
 	<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="js/jquery.tinycarousel.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function()
-		{
-			$('#slider1').tinycarousel({
-				axis:"y"
-			});
-		});
-	</script>	
+    <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
 	<div id="wrapper">	
 
 		<div id="menu">
 			<ul>
-				<a href="index.html"><li>joseph giglio</li>	</a>
+				<a href="index.html"><li class="unselect">joseph giglio</li>	</a>
 				<a href="code.html"> <li class="select"> code</li> </a>
-				<a href="music.html"> <li>music</li>	</a>
+				<a href="music.html"> <li class="unselect">music</li>	</a>
 			</ul>
 		</div>	
 
-			<div id="slider1">
+			<div id="slider">
 
 				<a class="prev button" href="#"><img class="img_b" src="images/up.svg"></a>
 				<div class="viewport">
-					<ul class="overview">
+					<ul class="overview" style="height: 668px;" >
 						<li>
 							<div id="web_information">
 								<span id="title">MANAGED APPS</span><span id="description">a SASS platform for mobile devices</span>
 								<p id="tools"> ruby on rails - basicbone.js - bootstrap</p>
-								<p id="link"> http://portal.managedapps.co/</p>
+								<p id="link"><a href="#"> http://portal.managedapps.com/</a></p>
 							</div>
 						</li>
 						<li>
 							<div id="web_information">
-								<span id="title">MANAGED APPS</span><span id="description">a SASS platform for mobile devices</span>
-								<p id="tools"> ruby on rails - basicbone.js - bootstrap</p>
-								<p id="link"> http://portal.managedapps.co/</p>
+								<span id="title">MIXT</span><span id="description"> a mixtape sharing app built in Ruby on Rails </span>
+								<p id="tools"> Ruby on rails - javascript</p>
+								<p id="link"><a href="#"> https://bitbucket.org/JoeGigs/mixt </a> </p>
 							</div>
 						</li>
 						<li>
 							<div id="web_information">
-								<span id="title">MANAGED APPS</span><span id="description">a SASS platform for mobile devices</span>
-								<p id="tools"> ruby on rails - basicbone.js - bootstrap</p>
+								<span id="title"> JUNO </span><span id="description"> Juno, a silly web game made with Phaser.js </span>
+								<p id="tools"> Phaser.js </p>
 								<p id="link"> http://portal.managedapps.co/</p>
 							</div>
 						</li>
@@ -61,19 +56,3 @@
 	</div>
 </body>
 </html> 
-
-
-	<!-- 	<div id="website">
-
-			<div class="button"> <img class="img_b" src="images/up.svg">  </div>
-			
-			<div id="web_information">
-				<span id="title">MANAGED APPS</span><span id="description">a SASS platform for mobile devices</span>
-				<p id="tools"> ruby on rails - basicbone.js - bootstrap</p>
-				<p id="link"> http://portal.managedapps.co/</p>
-			</div>
-			
-				<div class="button"> <img class="img_b" src="images/down.svg">   </div>
-		</div> 
-
- -->
